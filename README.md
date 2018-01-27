@@ -1,5 +1,4 @@
 # Hivesy Coding Test
-------
 
 ### Please follow these directions.
 
@@ -8,17 +7,17 @@
 1. Set the primary app color to #42c5f4
 
 2. Calendar Page has 2 issues, please debug and fix
-  * The stories underneath the calendar should redirect to the 'Story' view
-  * The top left menu icon no longer opens the app drawer
+    * The stories underneath the calendar should redirect to the 'Story' view
+    * The top left menu icon no longer opens the app drawer
 
 3. Create a new page/view called 'Pictures'
-  * Place link underneath 'Timeline' in the App Drawer
-  * Use the following API: https://jsonplaceholder.typicode.com/photos to populate 'Pictures' view
-  * Place the images in cards from: https://docs.nativebase.io/Components.html#card-image-headref
-  * Set the text above the image to the image title
-  > If the image title is longer than 12 characters, cut off the ending followed by '...' to show the user the title is shortened
-  * Set the text note to 'Hivesy'
-  * Set the thumbnail source as thumbnailUrl
-  * Set the card image as image
-  * When clicking on any card, take the user to a new view showing only the image.
-  > This view shouldn't be a modal, but a new page/view
+    * Place link underneath 'Timeline' in the App Drawer
+    * Use the following API: https://jsonplaceholder.typicode.com/photos to populate 'Pictures' view
+    * Place the images in cards from: https://docs.nativebase.io/Components.html#card-image-headref
+    * Set the text above the image to the image title
+          > If the image title is longer than 12 characters, cut off the ending followed by '...' to show the user the title is shortened
+    * Set the text note to 'Hivesy'
+    * Set the thumbnail source as thumbnailUrl
+    * Set the card image as image
+    * When clicking on any card, take the user to a new view showing only the image.
+          > This view shouldn't be a modal, but a new page/view
